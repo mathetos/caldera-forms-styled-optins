@@ -1,0 +1,52 @@
+#optin-ouibounce {
+    display: none;
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    padding-top: 20px;
+}
+
+.optin-modal {
+    padding: 40px;
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+}
+
+.optin-modal .optin-exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    color: #999;
+}
+.optin-modal .optin-exit:hover {
+    background: #eaeaea;
+}
+
+.optin_form {
+    background: #ECF0F1;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.optin_form header {
+    display: grid;
+    grid-template-columns: 55% 30%;
+    grid-gap: 15%;
+}
+
+.optin_form input[type="submit"] {
+    background: #E74C3C;
+}
